@@ -1,0 +1,26 @@
+{ "name": "webinos-driver-fake"
+, "publishConfig": { "tag": "alpha" }
+, "description": "webinos Driver that exposes the AR drone as an actuator"
+, "keywords": [ "webinos", "drone", "driver"]
+, "version": "0.0.1"
+, "homepage": "http://webinos.org/"
+, "author": "Cornelius Namiluko<corni6x@gmail.com>"
+, "repository":
+  { "type": "git"
+  , "url": "https://github.com/nix4/webinos-driver-4-drone.git"
+  }
+, "bugs":
+  { "email": "corni6x@gmail.com"
+  , "url": ""
+  }
+, "directories": { "lib": "./lib"
+                 }
+, "main": "./lib/driverHandle.js"
+, "dependencies":
+    "drone-controller"  : "git://github.com/nix4/drone-controller.git"
+  {
+  }
+, "bundleDependencies":
+  [
+  ]
+}
